@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Graphics - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP177.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Graphics.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MyProjects\Graphics\BCurve.cpp"
+"D:\MyProjects\Graphics\Bezier.cpp"
+"D:\MyProjects\Graphics\Circle.cpp"
+"D:\MyProjects\Graphics\Coons.cpp"
+"D:\MyProjects\Graphics\DrawFill.cpp"
+"D:\MyProjects\Graphics\DrawLine.cpp"
+"D:\MyProjects\Graphics\Graphics.cpp"
+"D:\MyProjects\Graphics\GraphicsDoc.cpp"
+"D:\MyProjects\Graphics\GraphicsView.cpp"
+"D:\MyProjects\Graphics\Hermite.cpp"
+"D:\MyProjects\Graphics\LineCross.cpp"
+"D:\MyProjects\Graphics\LineCut.cpp"
+"D:\MyProjects\Graphics\MainFrm.cpp"
+"D:\MyProjects\Graphics\Planar.cpp"
+"D:\MyProjects\Graphics\Ploygon.cpp"
+"D:\MyProjects\Graphics\Square.cpp"
+"D:\MyProjects\Graphics\Stack.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP177.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP178.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Graphics.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MyProjects\Graphics\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP178.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP179.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Graphics.pdb" /debug /machine:I386 /out:"Debug/Graphics.exe" /pdbtype:sept 
+.\Debug\BCurve.obj
+.\Debug\Bezier.obj
+.\Debug\Circle.obj
+.\Debug\Coons.obj
+.\Debug\DrawFill.obj
+.\Debug\DrawLine.obj
+.\Debug\Graphics.obj
+.\Debug\GraphicsDoc.obj
+.\Debug\GraphicsView.obj
+.\Debug\Hermite.obj
+.\Debug\LineCross.obj
+.\Debug\LineCut.obj
+.\Debug\MainFrm.obj
+.\Debug\Planar.obj
+.\Debug\Ploygon.obj
+.\Debug\Square.obj
+.\Debug\Stack.obj
+.\Debug\StdAfx.obj
+.\Debug\Graphics.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP179.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+BCurve.cpp
+Bezier.cpp
+Circle.cpp
+Coons.cpp
+DrawFill.cpp
+DrawLine.cpp
+Graphics.cpp
+GraphicsDoc.cpp
+GraphicsView.cpp
+Hermite.cpp
+LineCross.cpp
+LineCut.cpp
+D:\MyProjects\Graphics\LineCut.cpp(67) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+MainFrm.cpp
+Planar.cpp
+Ploygon.cpp
+Square.cpp
+Stack.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Graphics.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,27 @@
+// MySelf.cpp: implementation of the MySelf class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Graphics.h"
+#include "MySelf.h"
+
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+MySelf::MySelf()
+{
+}
+MySelf::~MySelf()
+{
+
+}
